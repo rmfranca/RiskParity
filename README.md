@@ -1,5 +1,5 @@
 
-# RiskParity
+# RiskParityBrazil
 
 <!-- badges: start -->
 <!-- badges: end -->
