@@ -163,7 +163,7 @@ ggplot(tidy_rt, aes(x = date, y = all_rt, color = assets)) +
   geom_line(size = 1.0) +
   labs(y="Returns", 
        x = "Date", 
-       title = "Risk parity - cumulative returns since 2Q2011") +
+       title = "Risk parity - cumulative returns as of 2Q2011") +
   scale_y_continuous(labels = percent_format(accuracy = 0.01),breaks = seq(0, max(tidy_rt$all_rt), by = 0.5)) + 
   scale_color_manual(name = "Assets",
                      values = c("seagreen",
